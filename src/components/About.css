@@ -1,0 +1,301 @@
+.about {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  padding: 100px 20px;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-intro {
+  margin-bottom: 60px;
+}
+
+.about .section-title {
+  color: var(--text-dark);
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.about-text {
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: rgba(26, 26, 26, 0.8);
+  margin-bottom: 1.5rem;
+  max-width: 900px;
+}
+
+.section-icon {
+  font-size: 3rem;
+  color: var(--accent-green);
+  margin-bottom: 1rem;
+}
+
+.subsection-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 2rem;
+}
+
+/* Education Section */
+.education-section,
+.skills-section,
+.certifications-section,
+.leadership-section,
+.experience-section {
+  margin-bottom: 80px;
+}
+
+.education-card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-left: 6px solid var(--accent-blue);
+}
+
+.education-card h4 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.institution {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--accent-blue);
+  margin-bottom: 0.3rem;
+}
+
+.location,
+.period {
+  font-size: 1rem;
+  color: rgba(26, 26, 26, 0.6);
+  margin-bottom: 0.5rem;
+}
+
+.coursework {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.coursework strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--text-dark);
+}
+
+.coursework p {
+  line-height: 1.8;
+  color: rgba(26, 26, 26, 0.75);
+}
+
+/* Skills Section */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.skill-category {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.skill-category-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 3px solid var(--accent-green);
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background-color: var(--accent-green);
+  color: var(--text-dark);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.skill-tag:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(127, 255, 0, 0.4);
+}
+
+/* Certifications Section */
+.certifications-list {
+  display: grid;
+  gap: 20px;
+}
+
+.certification-item {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cert-icon {
+  font-size: 2rem;
+}
+
+.certification-item p {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: rgba(26, 26, 26, 0.8);
+  margin: 0;
+}
+
+/* Leadership Section */
+.leadership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.leadership-card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.leadership-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.leadership-card h4 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 0.8rem;
+}
+
+.leadership-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: rgba(26, 26, 26, 0.75);
+  margin: 0;
+}
+
+/* Experience Section */
+.experience-card {
+  background-color: #fff;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+  border-left: 6px solid var(--accent-purple);
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.experience-header h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.experience-period {
+  font-size: 1rem;
+  color: rgba(26, 26, 26, 0.6);
+  font-weight: 500;
+}
+
+.experience-company {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--accent-purple);
+  margin-bottom: 1rem;
+}
+
+.experience-points {
+  list-style: none;
+  padding-left: 0;
+}
+
+.experience-points li {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(26, 26, 26, 0.75);
+  padding-left: 25px;
+  position: relative;
+  margin-bottom: 0.8rem;
+}
+
+.experience-points li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent-purple);
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .about .section-title {
+    font-size: 3rem;
+  }
+
+  .subsection-title {
+    font-size: 2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .skills-grid,
+  .leadership-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .about .section-title {
+    font-size: 2.5rem;
+  }
+
+  .subsection-title {
+    font-size: 1.8rem;
+  }
+
+  .education-card,
+  .experience-card {
+    padding: 25px;
+  }
+}
