@@ -53,6 +53,16 @@ const About = () => {
             solutions that people love to use. I believe good design is about making complicated things simple and 
             putting the user's needs at the heart of every project.
           </p>
+          <div className="resume-download">
+            <a 
+              href="https://drive.google.com/file/d/1yLs5pg7pY7HZ5X85QjLg_GlOHKEAWvw7/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="resume-btn"
+            >
+              📄 Download Resume
+            </a>
+          </div>
         </motion.div>
 
         {/* Education Section */}

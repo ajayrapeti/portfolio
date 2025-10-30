@@ -53,7 +53,7 @@ const Hero = () => {
           </div>
           
           <div className="hero-buttons">
-            <a href="#about" className="btn-primary">Resume</a>
+            <a href="https://drive.google.com/file/d/1yLs5pg7pY7HZ5X85QjLg_GlOHKEAWvw7/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-primary">Resume</a>
             <a href="mailto:ajayrapeti117@email.com" className="btn-secondary">ajayrapeti117@email.com</a>
           </div>
         </motion.div>

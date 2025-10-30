@@ -87,7 +87,7 @@ const Contact = () => {
             <a href="mailto:ajayrapeti117@email.com" className="touch-email">
               ajayrapeti117@email.com
             </a>
-            <a href="#" className="touch-resume">
+            <a href="https://drive.google.com/file/d/1yLs5pg7pY7HZ5X85QjLg_GlOHKEAWvw7/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="touch-resume">
               💬 Resume-Ajay-Rapeti.pdf
             </a>
           </div>
